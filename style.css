@@ -1,0 +1,97 @@
+html, body {
+	overflow: hidden;
+}
+
+.container-main {
+    margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.controls-slider {
+	margin-bottom: 30px;
+}
+
+.map-container {
+    overflow: hidden;
+    // position: relative;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+}
+
+#map {
+	height: 100vh;
+	width: 100%;
+
+    overflow: hidden;
+}
+
+.travel-time {
+	margin-top: 45px;
+}
+
+.travel-time-number {
+	font-weight: bold;
+}
+
+ul {
+	padding-left: 0; 
+	list-style-position: inside; 
+}
+
+.slider-wrapper {
+	margin-top: 20px;
+    margin-left: 5px;
+}
+
+.heart {
+	color: red;
+	font-size: 18px;
+	font-family: monospace;
+}
+
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    }
+
+.container-main {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+.map-container {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
